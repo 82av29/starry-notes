@@ -19,9 +19,10 @@
       "package": "com.starrynotes.app",
       "versionCode": 1
     },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.starrynotes.app"
+    "extra": {
+      "eas": {
+        "projectId": "c24d0919-b85a-4444-bb80-0bbb2a80ccfb"
+      }
     }
   }
 }
