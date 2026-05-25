@@ -22,14 +22,6 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.starrynotes.app"
-    },
-    "plugins": [
-      [
-        "@react-native-async-storage/async-storage",
-        {
-          "exclude": []
-        }
-      ]
-    ]
+    }
   }
 }
