@@ -24,13 +24,11 @@ jobs:
       - name: Setup Expo & EAS
         uses: expo/expo-github-action@v8
         with:
-          eas-version: latest
+          eas-version: 3.13.3
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Build APK
         run: eas build --platform android --profile preview --non-interactive
-        env:
-          EAS_NO_VCS: 1
 
       - name: Download APK
         run: |
